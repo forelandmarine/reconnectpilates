@@ -107,18 +107,18 @@ export default function Home() {
       </section>
 
       {/* ── Values ───────────────────────────────────────── */}
-      <section className="bg-warm-black py-24 sm:py-32">
+      <section className="bg-charcoal py-24 sm:py-32">
         <div className="max-w-6xl mx-auto px-6 sm:px-8 lg:px-12">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-12 lg:gap-16">
             {values.map((v, i) => (
               <ScrollReveal key={v.title} delay={i + 1}>
-                <span className="block font-heading text-6xl font-light text-green/50 mb-4">
+                <span className="block font-heading text-6xl font-light text-green/60 mb-4">
                   {v.number}
                 </span>
                 <h3 className="font-heading text-2xl font-light text-cream mb-3">
                   {v.title}
                 </h3>
-                <p className="text-cream/50 leading-relaxed">
+                <p className="text-cream/65 leading-relaxed">
                   {v.description}
                 </p>
               </ScrollReveal>

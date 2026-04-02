@@ -25,7 +25,7 @@ export default function Nav() {
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
         scrolled
-          ? "bg-warm-black/90 backdrop-blur-xl border-b border-cream/5"
+          ? "bg-charcoal/90 backdrop-blur-xl border-b border-cream/8"
           : "bg-transparent"
       }`}
     >
@@ -80,7 +80,7 @@ export default function Nav() {
           open ? "max-h-96 opacity-100" : "max-h-0 opacity-0"
         }`}
       >
-        <nav className="bg-warm-black/95 backdrop-blur-xl border-t border-cream/5 px-6 pb-6 pt-4">
+        <nav className="bg-charcoal/95 backdrop-blur-xl border-t border-cream/8 px-6 pb-6 pt-4">
           {links.map((l) => (
             <Link
               key={l.href}

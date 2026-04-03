@@ -6,7 +6,7 @@ import { SectionLabel, AccentLine } from "@/components/ui";
 import ScrollReveal from "@/components/ScrollReveal";
 
 export default function ContactPage() {
-  const [form, setForm] = useState({ name: "", email: "", message: "" });
+  const [form, setForm] = useState({ name: "", email: "", phone: "", message: "" });
   const [status, setStatus] = useState<"idle" | "sending" | "sent" | "error">(
     "idle",
   );
@@ -24,7 +24,7 @@ export default function ContactPage() {
 
       if (res.ok) {
         setStatus("sent");
-        setForm({ name: "", email: "", message: "" });
+        setForm({ name: "", email: "", phone: "", message: "" });
       } else {
         setStatus("error");
       }
@@ -118,6 +118,25 @@ export default function ContactPage() {
 
                   <div>
                     <label
+                      htmlFor="phone"
+                      className="block text-sm font-medium text-charcoal mb-2"
+                    >
+                      Phone <span className="text-stone font-normal">(optional)</span>
+                    </label>
+                    <input
+                      id="phone"
+                      type="tel"
+                      value={form.phone}
+                      onChange={(e) =>
+                        setForm({ ...form, phone: e.target.value })
+                      }
+                      className="w-full bg-cream border border-charcoal/15 rounded-sm px-4 py-3 text-charcoal text-sm placeholder:text-stone/50 focus:outline-none focus:border-green focus:ring-1 focus:ring-green/30 transition-all"
+                      placeholder="+34 600 000 000"
+                    />
+                  </div>
+
+                  <div>
+                    <label
                       htmlFor="message"
                       className="block text-sm font-medium text-charcoal mb-2"
                     >
@@ -163,15 +182,15 @@ export default function ContactPage() {
                     Visit us
                   </h3>
                   <p className="text-stone leading-relaxed">
-                    C/ Joan Crespi, 45
+                    C/ Joan Crespi, 47
                     <br />
                     07014 Palma de Mallorca
                     <br />
                     Illes Balears, Spain
                   </p>
                   <p className="text-stone text-sm mt-3">
-                    Son Espanyolet neighbourhood — a quiet street just off the
-                    Santa Catalina area.
+                    Santa Catalina neighbourhood — a quiet, residential street
+                    in central Palma.
                   </p>
                 </div>
 

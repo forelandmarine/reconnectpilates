@@ -21,7 +21,7 @@ export default function Footer() {
               </span>
             </Link>
             <p className="text-sm leading-relaxed max-w-xs">
-              Premium Reformer Pilates studio in Son Espanyolet, Palma de
+              Premium Reformer Pilates studio in Santa Catalina, Palma de
               Mallorca.
             </p>
           </div>
@@ -51,7 +51,7 @@ export default function Footer() {
               Contact
             </h3>
             <ul className="space-y-2.5 text-sm">
-              <li>C/ Joan Crespi, 45</li>
+              <li>C/ Joan Crespi, 47</li>
               <li>07014 Palma de Mallorca</li>
               <li>
                 <a

@@ -83,7 +83,7 @@ export default function Home() {
         {/* Content */}
         <div className="relative z-10 flex flex-col justify-end h-full max-w-6xl mx-auto px-5 sm:px-8 lg:px-12 pb-16 sm:pb-28">
           <div className="max-w-2xl">
-            <SectionLabel dark>Son Espanyolet, Palma de Mallorca</SectionLabel>
+            <SectionLabel dark>Santa Catalina, Palma de Mallorca</SectionLabel>
             <h1 className="font-heading text-4xl sm:text-6xl lg:text-7xl xl:text-8xl font-light leading-[1.05] text-cream mb-4 sm:mb-6">
               Reconnect with yourself.
             </h1>
@@ -244,15 +244,15 @@ export default function Home() {
             <ScrollReveal>
               <SectionLabel dark>The neighbourhood</SectionLabel>
               <h2 className="font-heading text-3xl sm:text-4xl lg:text-5xl font-light text-cream mb-4 sm:mb-6 leading-tight">
-                Son Espanyolet, Palma
+                Santa Catalina, Palma
               </h2>
               <p className="text-cream/50 leading-relaxed mb-3 sm:mb-4">
-                A quiet, residential neighbourhood just steps from Santa
-                Catalina. Tree-lined streets, independent cafes, and the kind of
-                calm that makes the rest of your morning better.
+                A quiet, residential neighbourhood of tree-lined streets,
+                independent cafes, and the kind of calm that makes the rest of
+                your morning better.
               </p>
               <p className="text-cream/50 leading-relaxed">
-                C/ Joan Crespi, 45. Easy to find, easy to park, and far enough
+                C/ Joan Crespi, 47. Easy to find, easy to park, and far enough
                 from the bustle to feel like a retreat.
               </p>
             </ScrollReveal>

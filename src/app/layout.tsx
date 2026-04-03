@@ -24,20 +24,20 @@ export const metadata: Metadata = {
     template: "%s | Re:Connect Pilates",
   },
   description:
-    "Premium Reformer Pilates studio in Son Espanyolet, Palma de Mallorca. Small classes, expert instruction, Balanced Body equipment. Reconnect with yourself.",
+    "Premium Reformer Pilates studio in Santa Catalina, Palma de Mallorca. Small classes, expert instruction, Balanced Body equipment. Reconnect with yourself.",
   keywords: [
     "Reformer Pilates",
     "Pilates Palma",
     "Palma de Mallorca Pilates",
     "Reformer Pilates Mallorca",
-    "Son Espanyolet",
+    "Santa Catalina",
     "Balanced Body",
     "Pilates studio",
   ],
   openGraph: {
     title: "Re:Connect — Reformer Pilates in Palma de Mallorca",
     description:
-      "Premium Reformer Pilates studio in Son Espanyolet, Palma de Mallorca. Small classes, expert instruction, Balanced Body equipment.",
+      "Premium Reformer Pilates studio in Santa Catalina, Palma de Mallorca. Small classes, expert instruction, Balanced Body equipment.",
     url: "https://reconnectpilates.es",
     siteName: "Re:Connect Pilates",
     locale: "en",
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Re:Connect — Reformer Pilates in Palma de Mallorca",
     description:
-      "Premium Reformer Pilates studio in Son Espanyolet, Palma de Mallorca.",
+      "Premium Reformer Pilates studio in Santa Catalina, Palma de Mallorca.",
   },
   robots: { index: true, follow: true },
 };

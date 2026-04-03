@@ -158,12 +158,12 @@ export default function StudioPage() {
           <ScrollReveal>
             <SectionLabel dark>The neighbourhood</SectionLabel>
             <h2 className="font-heading text-3xl sm:text-4xl lg:text-5xl font-light text-cream mb-4 leading-tight max-w-xl">
-              Son Espanyolet, Palma
+              Santa Catalina, Palma
             </h2>
             <p className="text-cream/60 leading-relaxed max-w-lg">
-              A quiet, residential neighbourhood just steps from Santa Catalina.
-              Tree-lined streets, independent cafes, and the kind of calm that
-              makes the rest of your morning better.
+              A quiet, residential neighbourhood of tree-lined streets,
+              independent cafes, and the kind of calm that makes the rest of
+              your morning better.
             </p>
           </ScrollReveal>
         </div>

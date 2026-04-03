@@ -38,8 +38,8 @@ export default function ContactPage() {
       {/* Hero */}
       <section className="relative h-[45vh] sm:h-[50vh] min-h-[340px] sm:min-h-[400px] overflow-hidden">
         <Image
-          src="https://images.unsplash.com/photo-1581271164789-7c97932822d3?w=1920&h=1080&fit=crop&q=80&sat=-100"
-          alt="Palma de Mallorca harbour"
+          src="/images/contact-hero.avif"
+          alt="Woman in pilates pose, reconnecting with body and breath"
           fill
           className="object-cover grayscale"
           priority
@@ -220,14 +220,6 @@ export default function ContactPage() {
                       className="text-stone hover:text-charcoal transition-colors text-sm"
                     >
                       Instagram
-                    </a>
-                    <a
-                      href="https://tiktok.com/@reconnect.pilates"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-stone hover:text-charcoal transition-colors text-sm"
-                    >
-                      TikTok
                     </a>
                   </div>
                 </div>

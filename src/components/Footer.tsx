@@ -80,16 +80,6 @@ export default function Footer() {
                   Instagram
                 </a>
               </li>
-              <li>
-                <a
-                  href="https://tiktok.com/@reconnect.pilates"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="transition-colors hover:text-cream"
-                >
-                  TikTok
-                </a>
-              </li>
             </ul>
           </div>
         </div>

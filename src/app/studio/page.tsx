@@ -11,8 +11,8 @@ const materials = [
     image: "/images/studio/reception.png",
   },
   {
-    name: "Calke Green accents",
-    description: "A deep, natural green inspired by the Mallorcan olive groves.",
+    name: "Sage green accents",
+    description: "Soft sage tones throughout — a gentle nod to the Mallorcan landscape.",
     image: "https://images.unsplash.com/photo-1741308478095-dbb476ecba9d?w=600&h=600&fit=crop&q=80",
   },
   {
@@ -89,7 +89,7 @@ export default function StudioPage() {
                       alt={m.name}
                       width={600}
                       height={600}
-                      className="w-full h-full object-cover"
+                      className="w-full h-full object-cover grayscale"
                     />
                   </div>
                 </div>

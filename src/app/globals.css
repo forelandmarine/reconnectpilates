@@ -1,16 +1,16 @@
 @import "tailwindcss";
 
 @theme inline {
-  /* Deepened palette — richer, more contrast, more differentiated */
-  --color-sand: #EBE4D6;
-  --color-cream: #F2EDE4;
-  --color-dune: #A8906A;
-  --color-green: #3D5A3A;
-  --color-green-light: #4A6B46;
-  --color-sage: #6E8668;
+  /* Palette — beige/crème, noir, vert sauge doux */
+  --color-sand: #EDE7DC;
+  --color-cream: #F5F0E8;
+  --color-dune: #C4B49A;
+  --color-green: #6B8B66;
+  --color-green-light: #82A47D;
+  --color-sage: #8FA888;
   --color-charcoal: #1A1A1A;
-  --color-oak: #9A7B45;
-  --color-stone: #706B60;
+  --color-oak: #B0966E;
+  --color-stone: #7A756A;
   --color-warm-black: #0F0E0C;
 
   --font-heading: var(--font-cormorant);
@@ -30,7 +30,7 @@ body {
 }
 
 ::selection {
-  background-color: var(--color-green);
+  background-color: var(--color-sage);
   color: var(--color-cream);
 }
 
@@ -94,6 +94,6 @@ body {
   transition: border-color 0.3s ease, box-shadow 0.3s ease;
 }
 .card-hover:hover {
-  border-color: var(--color-green);
-  box-shadow: 0 0 0 1px var(--color-green);
+  border-color: var(--color-sage);
+  box-shadow: 0 0 0 1px var(--color-sage);
 }

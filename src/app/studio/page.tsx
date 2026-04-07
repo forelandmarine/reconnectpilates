@@ -23,7 +23,7 @@ const materials = [
   {
     name: "Acoustic ceiling",
     description: "Engineered for calm — reducing noise so you can focus on your breath.",
-    image: "/images/studio/reformers.png",
+    image: "/images/studio/floorplan.png",
   },
   {
     name: "Timber slat detailing",
@@ -133,8 +133,8 @@ export default function StudioPage() {
             <ScrollReveal delay={1}>
               <div className="aspect-[4/3] rounded-sm overflow-hidden img-zoom">
                 <Image
-                  src="/images/studio/storefront.png"
-                  alt="Re:Connect studio storefront on C/ Joan Crespi"
+                  src="https://images.unsplash.com/photo-1545205597-3d9d02c29597?w=960&h=720&fit=crop&q=80"
+                  alt="Pilates reformer equipment detail"
                   width={960}
                   height={720}
                   className="w-full h-full object-cover"

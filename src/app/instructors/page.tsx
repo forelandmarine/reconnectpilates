@@ -11,7 +11,7 @@ const instructors = [
     credentials: "Balanced Body certified, 8+ years experience",
     bio: "A brief biography about this instructor — their background, approach to teaching, and what they bring to the studio.",
     speciality: "Reformer Flow, Private Sessions",
-    image: "https://images.unsplash.com/photo-1747240549807-fc3962949818?w=500&h=667&fit=crop&q=80",
+    image: "https://images.unsplash.com/photo-1518611012118-696072aa579a?w=500&h=667&fit=crop&q=80",
   },
   {
     name: "Instructor name",
@@ -19,7 +19,7 @@ const instructors = [
     credentials: "BASI Pilates certified, physiotherapy background",
     bio: "A brief biography about this instructor — their background, approach to teaching, and what they bring to the studio.",
     speciality: "Reformer Restore, Rehabilitation",
-    image: "https://images.unsplash.com/photo-1754257320382-95b43e9f797c?w=500&h=667&fit=crop&q=80",
+    image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=500&h=667&fit=crop&q=80",
   },
   {
     name: "Instructor name",
@@ -27,7 +27,7 @@ const instructors = [
     credentials: "Stott Pilates certified, 5+ years experience",
     bio: "A brief biography about this instructor — their background, approach to teaching, and what they bring to the studio.",
     speciality: "Reformer Sculpt, Fundamentals",
-    image: "https://images.unsplash.com/photo-1754257319747-df51c384c0fa?w=500&h=667&fit=crop&q=80",
+    image: "https://images.unsplash.com/photo-1594737625785-a6cbdabd333c?w=500&h=667&fit=crop&q=80",
   },
 ];
 
@@ -37,8 +37,8 @@ export default function InstructorsPage() {
       {/* Hero */}
       <section className="relative h-[45vh] sm:h-[50vh] min-h-[340px] sm:min-h-[400px] overflow-hidden">
         <Image
-          src="https://images.unsplash.com/photo-1747239202356-764770773c9a?w=1920&h=1080&fit=crop&q=80"
-          alt="Pilates instruction"
+          src="https://images.unsplash.com/photo-1506629082955-511b1aa562c8?w=1920&h=1080&fit=crop&q=80"
+          alt="Pilates instructor leading a class"
           fill
           className="object-cover"
           priority
@@ -129,8 +129,8 @@ export default function InstructorsPage() {
       {/* CTA */}
       <section className="relative py-16 sm:py-24 lg:py-32 overflow-hidden">
         <Image
-          src="/images/studio/reformers.png"
-          alt="Re:Connect studio"
+          src="https://images.unsplash.com/photo-1549060279-7e168fcee0c2?w=1920&h=1080&fit=crop&q=80"
+          alt="Pilates reformer class in session"
           fill
           className="object-cover"
         />

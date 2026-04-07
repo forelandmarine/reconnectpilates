@@ -11,28 +11,28 @@ const classes = [
     description:
       "A foundational class for those new to Reformer Pilates. Focus on alignment, breath, and the core principles of the method.",
     image:
-      "https://images.unsplash.com/photo-1717500252709-05a73fc4f1da?w=800&h=600&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1518310383802-640c2de311b2?w=800&h=600&fit=crop&q=80",
   },
   {
     name: "Reformer Flow",
     description:
       "A dynamic, flowing class connecting movements with breath. Builds strength, flexibility, and body awareness.",
     image:
-      "https://images.unsplash.com/photo-1747240549807-fc3962949818?w=800&h=600&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=800&h=600&fit=crop&q=80",
   },
   {
     name: "Reformer Sculpt",
     description:
       "An athletic, strength-focused class using the full range of the Reformer. Controlled intensity for real results.",
     image:
-      "https://images.unsplash.com/photo-1754257320382-95b43e9f797c?w=800&h=600&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1540206395-68808572332f?w=800&h=600&fit=crop&q=80",
   },
   {
     name: "Reformer Restore",
     description:
       "A slower, deeper practice emphasising mobility, stretch, and release. Ideal for recovery days.",
     image:
-      "https://images.unsplash.com/photo-1754257319747-df51c384c0fa?w=800&h=600&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&h=600&fit=crop&q=80",
   },
 ];
 
@@ -138,8 +138,8 @@ export default function Home() {
             <ScrollReveal>
               <div className="aspect-[4/3] rounded-sm overflow-hidden img-zoom">
                 <Image
-                  src="/images/studio/reformers.png"
-                  alt="Re:Connect Pilates studio with Reformer machines"
+                  src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=960&h=720&fit=crop&q=80"
+                  alt="Pilates reformer studio interior"
                   width={960}
                   height={720}
                   className="w-full h-full object-cover"

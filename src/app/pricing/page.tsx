@@ -76,8 +76,10 @@ export default function PricingPage() {
           priority
         />
         <div className="absolute inset-0 hero-video-overlay" />
-        <div className="relative z-10 flex flex-col justify-end h-full max-w-6xl mx-auto px-5 sm:px-8 lg:px-12 pb-16 sm:pb-24">
+        <div className="absolute top-16 sm:top-20 left-0 right-0 z-10 max-w-6xl mx-auto px-5 sm:px-8 lg:px-12 pt-4">
           <SectionLabel dark>{p.heroLabel}</SectionLabel>
+        </div>
+        <div className="relative z-10 flex flex-col justify-end h-full max-w-6xl mx-auto px-5 sm:px-8 lg:px-12 pb-16 sm:pb-24">
           <h1 className="font-heading text-lg sm:text-2xl lg:text-3xl font-light text-cream mb-4 leading-relaxed max-w-2xl">
             {p.heroTitle}
           </h1>

@@ -20,7 +20,7 @@ const en = {
     location: "Santa Catalina, Palma de Mallorca",
     heroTitle: "Reconnect with yourself.",
     heroSubtitle: "An intimate studio in the heart of Palma. Eight Reformers, expert hands, and space to breathe.",
-    bookClass: "Reserve your place",
+    bookClass: "See the classes",
 
     v1Title: "Intimate by design",
     v1Desc: "Eight clients per class — enough to share the energy, few enough to feel truly seen.",
@@ -224,7 +224,7 @@ const en = {
     philosophyP2: "No two clients are the same. No two sessions are either. That is what makes this work worth doing.",
     ctaLabel: "Meet us in person",
     ctaTitle: "The best introduction is a first session.",
-    bookClass: "Reserve your place",
+    bookClass: "Book a session",
   },
   contact: {
     heroLabel: "Contact",
@@ -269,7 +269,7 @@ const es: typeof en = {
     location: "Santa Catalina, Palma de Mallorca",
     heroTitle: "Reconéctate.",
     heroSubtitle: "Un estudio íntimo en el corazón de Palma. Ocho Reformers, instructores expertos y espacio para respirar.",
-    bookClass: "Reserva tu plaza",
+    bookClass: "Ver las clases",
 
     v1Title: "Íntimo por diseño",
     v1Desc: "Ocho clientes por sesión — suficiente para compartir la energía, pocos para sentirte realmente visto.",
@@ -473,7 +473,7 @@ const es: typeof en = {
     philosophyP2: "No hay dos clientes iguales. Ni dos sesiones tampoco. Eso es lo que hace que este trabajo valga la pena.",
     ctaLabel: "Conócenos en persona",
     ctaTitle: "La mejor presentación es una primera sesión.",
-    bookClass: "Reserva tu plaza",
+    bookClass: "Reservar una sesión",
   },
   contact: {
     heroLabel: "Contacto",
@@ -518,7 +518,7 @@ const fr: typeof en = {
     location: "Santa Catalina, Palma de Majorque",
     heroTitle: "Reconnectez-vous.",
     heroSubtitle: "Un studio intime au cœur de Palma. Huit Reformers, des mains expertes et de l'espace pour respirer.",
-    bookClass: "Réserver ma place",
+    bookClass: "Voir les cours",
 
     v1Title: "Intime par nature",
     v1Desc: "Huit clients par séance — assez pour partager l'énergie, peu pour être vraiment vu.",
@@ -722,7 +722,7 @@ const fr: typeof en = {
     philosophyP2: "Il n'y a pas deux clients pareils. Il n'y a pas deux séances pareilles non plus. C'est ce qui rend ce travail précieux.",
     ctaLabel: "Rencontrez-nous",
     ctaTitle: "La meilleure présentation, c'est une première séance.",
-    bookClass: "Réserver ma place",
+    bookClass: "Réserver une séance",
   },
   contact: {
     heroLabel: "Contact",

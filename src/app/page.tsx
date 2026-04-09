@@ -62,15 +62,18 @@ export default function Home() {
 
         {/* Content */}
         <div className="relative z-10 flex flex-col justify-end h-full max-w-6xl mx-auto px-5 sm:px-8 lg:px-12 pb-16 sm:pb-28">
-          <div className="max-w-3xl">
+          <div className="max-w-2xl">
             <SectionLabel dark>{h.location}</SectionLabel>
-            <p className="font-heading text-7xl sm:text-9xl lg:text-[11rem] font-light tracking-[0.08em] text-cream leading-none mb-3 sm:mb-4">
+            <p className="font-heading text-5xl sm:text-6xl lg:text-7xl font-semibold tracking-[0.1em] text-cream leading-tight mb-1">
               Nimara
             </p>
-            <h1 className="font-heading text-lg sm:text-2xl font-light text-cream/70 mb-6 sm:mb-8 max-w-lg">
+            <p className="text-xs sm:text-sm uppercase tracking-[0.3em] text-cream/50 font-medium mb-5 sm:mb-7">
+              Reformer Studio
+            </p>
+            <h1 className="font-heading text-base sm:text-xl font-light text-cream/70 mb-3 sm:mb-4 max-w-md leading-relaxed">
               {h.heroTitle}
             </h1>
-            <p className="text-sm sm:text-base text-cream/50 leading-relaxed mb-8 sm:mb-10 max-w-md">
+            <p className="text-sm text-cream/45 leading-relaxed mb-8 sm:mb-10 max-w-sm">
               {h.heroSubtitle}
             </p>
             {/* CTAs — desktop only */}

@@ -252,10 +252,10 @@ export default function ContactPage() {
                   <AccentLine />
                   <h3 className="font-heading text-xl font-light text-charcoal mb-3">{c.emailHeading}</h3>
                   <a
-                    href="mailto:hello@reconnectpilates.es"
+                    href="mailto:hello@nimarastudio.es"
                     className="text-green hover:text-green-light transition-colors"
                   >
-                    hello@reconnectpilates.es
+                    hello@nimarastudio.es
                   </a>
                 </div>
 
@@ -264,7 +264,7 @@ export default function ContactPage() {
                   <h3 className="font-heading text-xl font-light text-charcoal mb-3">{c.followUs}</h3>
                   <div className="flex gap-6">
                     <a
-                      href="https://instagram.com/reconnect.pilates"
+                      href="https://instagram.com/nimarastudio"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-stone hover:text-charcoal transition-colors text-sm"

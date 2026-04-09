@@ -40,7 +40,7 @@ export const metadata: Metadata = {
     title: "Nimara — Reformer Pilates in Palma de Mallorca",
     description:
       "Premium Reformer Pilates studio in Santa Catalina, Palma de Mallorca. Small classes, expert instruction, Balanced Body equipment.",
-    url: "https://reconnectpilates.es",
+    url: "https://nimarastudio.es",
     siteName: "Nimara Pilates",
     locale: "en",
     type: "website",

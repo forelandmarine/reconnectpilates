@@ -54,10 +54,10 @@ export default function Footer() {
               <li>07014 Palma de Mallorca</li>
               <li>
                 <a
-                  href="mailto:hello@reconnectpilates.es"
+                  href="mailto:hello@nimarastudio.es"
                   className="transition-colors hover:text-cream"
                 >
-                  hello@reconnectpilates.es
+                  hello@nimarastudio.es
                 </a>
               </li>
             </ul>
@@ -71,7 +71,7 @@ export default function Footer() {
             <ul className="space-y-2.5 text-sm">
               <li>
                 <a
-                  href="https://instagram.com/reconnect.pilates"
+                  href="https://instagram.com/nimarastudio"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="transition-colors hover:text-cream"

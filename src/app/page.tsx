@@ -83,10 +83,6 @@ export default function Home() {
             <p className="text-sm text-cream/45 leading-relaxed mb-8 sm:mb-10 max-w-sm">
               {h.heroSubtitle}
             </p>
-            {/* CTA — desktop only */}
-            <div className="hidden sm:flex flex-wrap gap-4">
-              <ButtonPrimary href="/classes">{t.nav.book}</ButtonPrimary>
-            </div>
           </div>
         </div>
 

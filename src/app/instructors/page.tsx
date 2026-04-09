@@ -50,7 +50,7 @@ export default function InstructorsPage() {
         <div className="absolute inset-0 hero-video-overlay" />
         <div className="relative z-10 flex flex-col justify-end h-full max-w-6xl mx-auto px-5 sm:px-8 lg:px-12 pb-16 sm:pb-24">
           <SectionLabel dark>{inst.heroLabel}</SectionLabel>
-          <h1 className="font-heading text-4xl sm:text-5xl lg:text-6xl font-light text-cream mb-4 leading-tight max-w-2xl">
+          <h1 className="font-heading text-lg sm:text-2xl lg:text-3xl font-light text-cream mb-4 leading-relaxed max-w-2xl">
             {inst.heroTitle}
           </h1>
           <p className="text-cream/60 text-lg leading-relaxed max-w-xl">{inst.heroSubtitle}</p>

@@ -39,6 +39,15 @@ export default function Home() {
     { title: h.v3Title, description: h.v3Desc, number: "01" },
   ];
 
+  const practical = [
+    { title: h.p1Title, text: h.p1Text },
+    { title: h.p2Title, text: h.p2Text },
+    { title: h.p3Title, text: h.p3Text },
+    { title: h.p4Title, text: h.p4Text },
+    { title: h.p5Title, text: h.p5Text },
+    { title: h.p6Title, text: h.p6Text },
+  ];
+
   const testimonials = [
     { quote: h.t1Quote, name: h.t1Name, detail: h.t1Detail },
     { quote: h.t2Quote, name: h.t2Name, detail: h.t2Detail },
@@ -76,12 +85,9 @@ export default function Home() {
             <p className="text-sm text-cream/45 leading-relaxed mb-8 sm:mb-10 max-w-sm">
               {h.heroSubtitle}
             </p>
-            {/* CTAs — desktop only */}
+            {/* CTA — desktop only */}
             <div className="hidden sm:flex flex-wrap gap-4">
               <ButtonPrimary href="/classes">{h.bookClass}</ButtonPrimary>
-              <ButtonOutline href="/studio" light>
-                {h.exploreStudio}
-              </ButtonOutline>
             </div>
           </div>
         </div>
@@ -116,15 +122,15 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ── About split ──────────────────────────────────── */}
-      <section className="bg-sand py-16 sm:py-24 lg:py-32">
+      {/* ── Arrival ──────────────────────────────────────── */}
+      <section className="bg-cream py-16 sm:py-24 lg:py-32">
         <div className="max-w-6xl mx-auto px-5 sm:px-8 lg:px-12">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-20 items-center">
             <ScrollReveal>
               <div className="aspect-[4/3] rounded-sm overflow-hidden img-zoom">
                 <Image
-                  src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=960&h=720&fit=crop&q=80"
-                  alt="Pilates reformer studio interior"
+                  src="/images/studio/reception.png"
+                  alt="Nimara studio reception area"
                   width={960}
                   height={720}
                   className="w-full h-full object-cover"
@@ -133,13 +139,40 @@ export default function Home() {
             </ScrollReveal>
 
             <ScrollReveal delay={1}>
-              <SectionLabel>{h.aboutLabel}</SectionLabel>
+              <SectionLabel>{h.arrivalLabel}</SectionLabel>
               <h2 className="font-heading text-3xl sm:text-4xl lg:text-5xl font-light text-charcoal mb-4 sm:mb-6 leading-tight">
-                {h.aboutTitle}
+                {h.arrivalTitle}
               </h2>
-              <p className="text-stone leading-relaxed mb-3 sm:mb-4">{h.aboutP1}</p>
-              <p className="text-stone leading-relaxed mb-6 sm:mb-8">{h.aboutP2}</p>
-              <ButtonOutline href="/studio">{h.discoverSpace}</ButtonOutline>
+              <p className="text-stone leading-relaxed mb-3 sm:mb-4">{h.arrivalP1}</p>
+              <p className="text-stone leading-relaxed">{h.arrivalP2}</p>
+            </ScrollReveal>
+          </div>
+        </div>
+      </section>
+
+      {/* ── Studio floor ─────────────────────────────────── */}
+      <section className="bg-sand py-16 sm:py-24 lg:py-32">
+        <div className="max-w-6xl mx-auto px-5 sm:px-8 lg:px-12">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-20 items-center">
+            <ScrollReveal>
+              <SectionLabel>{h.floorLabel}</SectionLabel>
+              <h2 className="font-heading text-3xl sm:text-4xl lg:text-5xl font-light text-charcoal mb-4 sm:mb-6 leading-tight">
+                {h.floorTitle}
+              </h2>
+              <p className="text-stone leading-relaxed mb-3 sm:mb-4">{h.floorP1}</p>
+              <p className="text-stone leading-relaxed">{h.floorP2}</p>
+            </ScrollReveal>
+
+            <ScrollReveal delay={1}>
+              <div className="aspect-[4/3] rounded-sm overflow-hidden img-zoom">
+                <Image
+                  src="https://images.unsplash.com/photo-1545205597-3d9d02c29597?w=960&h=720&fit=crop&q=80"
+                  alt="Pilates reformer studio detail"
+                  width={960}
+                  height={720}
+                  className="w-full h-full object-cover"
+                />
+              </div>
             </ScrollReveal>
           </div>
         </div>
@@ -162,6 +195,40 @@ export default function Home() {
           </ScrollReveal>
         </div>
       </section>
+
+      {/* ── Practical info ───────────────────────────────── */}
+      <section className="bg-sand py-16 sm:py-24 lg:py-32">
+        <div className="max-w-6xl mx-auto px-5 sm:px-8 lg:px-12">
+          <ScrollReveal>
+            <SectionLabel>{h.practicalLabel}</SectionLabel>
+            <h2 className="font-heading text-3xl sm:text-4xl font-light text-charcoal mb-14">
+              {h.practicalTitle}
+            </h2>
+          </ScrollReveal>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-10 gap-y-10">
+            {practical.map((item, i) => (
+              <ScrollReveal key={item.title} delay={(i % 3) + 1}>
+                <div className="flex gap-4">
+                  <span className="font-heading text-2xl font-light text-green/50 shrink-0 mt-0.5">
+                    {String(i + 1).padStart(2, "0")}
+                  </span>
+                  <div>
+                    <h3 className="font-heading text-lg font-light text-charcoal mb-1">
+                      {item.title}
+                    </h3>
+                    <p className="text-stone text-sm leading-relaxed">{item.text}</p>
+                  </div>
+                </div>
+              </ScrollReveal>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <div className="max-w-6xl mx-auto px-5 sm:px-8 lg:px-12">
+        <Divider />
+      </div>
 
       {/* ── Classes preview ──────────────────────────────── */}
       <section className="bg-cream py-16 sm:py-24 lg:py-32">
@@ -243,27 +310,51 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ── Mallorca strip ───────────────────────────────── */}
-      <section className="bg-warm-black py-16 sm:py-24 lg:py-32">
+      {/* ── Location ─────────────────────────────────────── */}
+      <section className="bg-cream py-16 sm:py-24 lg:py-32">
         <div className="max-w-6xl mx-auto px-5 sm:px-8 lg:px-12">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-20 items-center">
             <ScrollReveal>
-              <SectionLabel dark>{h.neighbourhoodLabel}</SectionLabel>
-              <h2 className="font-heading text-3xl sm:text-4xl lg:text-5xl font-light text-cream mb-4 sm:mb-6 leading-tight">
-                {h.neighbourhoodTitle}
+              <SectionLabel>{h.locationLabel}</SectionLabel>
+              <h2 className="font-heading text-3xl sm:text-4xl lg:text-5xl font-light text-charcoal mb-6 leading-tight">
+                {h.locationTitle}
               </h2>
-              <p className="text-cream/50 leading-relaxed mb-3 sm:mb-4">{h.neighbourhoodP1}</p>
-              <p className="text-cream/50 leading-relaxed">{h.neighbourhoodP2}</p>
+
+              <div className="space-y-6 mb-8">
+                <div>
+                  <p className="text-xs uppercase tracking-[0.2em] text-green font-medium mb-1">
+                    {h.addressLabel}
+                  </p>
+                  <p className="text-charcoal font-medium">C/ Joan Crespí, 47</p>
+                  <p className="text-stone text-sm">07014 Palma de Mallorca</p>
+                </div>
+
+                <div>
+                  <p className="text-xs uppercase tracking-[0.2em] text-green font-medium mb-1">
+                    {h.parkingLabel}
+                  </p>
+                  <p className="text-stone text-sm leading-relaxed">{h.parkingText}</p>
+                </div>
+
+                <div>
+                  <p className="text-xs uppercase tracking-[0.2em] text-green font-medium mb-1">
+                    {h.neighbourhoodLabel}
+                  </p>
+                  <p className="text-stone text-sm leading-relaxed">{h.neighbourhoodText}</p>
+                </div>
+              </div>
+
+              <ButtonOutline href="/contact">{h.getInTouch}</ButtonOutline>
             </ScrollReveal>
 
             <ScrollReveal delay={1}>
-              <div className="aspect-[4/3] rounded-sm overflow-hidden">
+              <div className="aspect-[4/3] rounded-sm overflow-hidden img-zoom">
                 <Image
-                  src="https://images.unsplash.com/photo-1566993850067-bb8df9c9807e?w=960&h=720&fit=crop&q=80&sat=-100"
-                  alt="Palma Cathedral, Mallorca"
+                  src="/images/studio/storefront.png"
+                  alt="Nimara studio on C/ Joan Crespí, Santa Catalina"
                   width={960}
                   height={720}
-                  className="w-full h-full object-cover grayscale"
+                  className="w-full h-full object-cover"
                 />
               </div>
             </ScrollReveal>

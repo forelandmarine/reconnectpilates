@@ -7,7 +7,6 @@ export default function Footer() {
   const { t } = useLanguage();
 
   const navLinks = [
-    { label: t.nav.studio, href: "/studio" },
     { label: t.nav.classes, href: "/classes" },
     { label: t.nav.pricing, href: "/pricing" },
     { label: t.nav.instructors, href: "/instructors" },

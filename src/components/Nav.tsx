@@ -19,7 +19,6 @@ export default function Nav() {
   }, []);
 
   const links = [
-    { label: t.nav.studio, href: "/studio" },
     { label: t.nav.classes, href: "/classes" },
     { label: t.nav.pricing, href: "/pricing" },
     { label: t.nav.instructors, href: "/instructors" },
